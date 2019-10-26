@@ -7,7 +7,7 @@ replicaCount: 1
 # imagePullSecrets:
 
 image:
-  repository: registry.aliyuncs.com/kubernetes_incubator/nfs-provisioner
+  repository: quay-mirror.qiniu.com/kubernetes_incubator/nfs-provisioner
   tag: v1.0.9
   pullPolicy: IfNotPresent
 

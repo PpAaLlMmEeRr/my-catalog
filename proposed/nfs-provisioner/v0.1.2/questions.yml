@@ -15,7 +15,7 @@ questions:
   show_subquestion_if: false
   subquestions:
   - variable: image.repository
-    default: "registry.aliyuncs.com/kubernetes_incubator/nfs-provisioner"
+    default: "quay-mirror.qiniu.com/kubernetes_incubator/nfs-provisioner"
     description: "Docker image name"
     type: string
     label: NFS Image Name
